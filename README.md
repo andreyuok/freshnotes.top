@@ -1,0 +1,2 @@
+# freshnotes.top
+freshnotes website
