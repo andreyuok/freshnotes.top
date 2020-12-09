@@ -18,7 +18,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
 <a href="#main" class="sr-only sr-only-focusable"><?php _e('Skip to main content', 'fnote'); ?></a>
 <div id="wrapper">
     <header>
-        <nav id="header" class="navbar navbar-expand-md <?php echo $navbar_scheme;
+        <nav id="header" class="navbar navbar-expand-lx <?php echo $navbar_scheme;
         if (isset($navbar_position) && 'fixed_top' === $navbar_position) : echo ' fixed-top'; elseif (isset($navbar_position) && 'fixed_bottom' === $navbar_position) : echo ' fixed-bottom'; endif;
         if (is_home() || is_front_page()) : echo ' home'; endif; ?>">
             <div class="container">
@@ -79,7 +79,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
         if (is_single() || is_archive()) :
         ?>
         <div class="row">
-            <div class="col-md-10 col-sm-12">
+            <div class="col-md-12 col-sm-12">
                 <?php
                 endif;
                 ?>

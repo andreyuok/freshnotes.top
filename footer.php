@@ -5,7 +5,7 @@
 					</div><!-- /.col -->
 
 					<?php
-						get_sidebar();
+					//	get_sidebar();
 					?>
 
 				</div><!-- /.row -->
@@ -45,7 +45,7 @@
 						<div class="col-md-12">
 							<?php
 								dynamic_sidebar( 'third_widget_area' );
-								
+
 								if ( current_user_can( 'manage_options' ) ) :
 							?>
 								<span class="edit-link"><a href="<?php echo esc_url( admin_url( 'widgets.php' ) ); ?>" class="badge badge-secondary"><?php _e( 'Edit', 'fnote' ); ?></a></span><!-- Show Edit Widget link -->

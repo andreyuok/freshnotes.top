@@ -34,7 +34,7 @@
                 if (is_search()) :
                     the_excerpt();
                 else :
-                    the_content();
+                    the_excerpt();
                 endif;
                 ?>
                 <?php wp_link_pages(array('before' => '<div class="page-link"><span>' . __('Pages:', 'fnote') . '</span>', 'after' => '</div>')); ?>
