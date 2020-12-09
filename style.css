@@ -218,3 +218,7 @@ a img.aligncenter {
 	max-width: 90%;
     }
 }
+
+.post-thumbnail {
+    text-align: center;
+}

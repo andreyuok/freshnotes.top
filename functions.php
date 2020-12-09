@@ -205,7 +205,7 @@ if (!function_exists('fnote_content_nav')) :
         if ($wp_query->max_num_pages > 1) :
             ?>
             <div id="<?php echo $nav_id; ?>" class="d-flex mb-4 justify-content-between">
-                <div><?php next_posts_link('<span aria-hidden="true">&larr;</span> ' . __('Older posts', 'fnote')); ?></div>
+                <div><?php next_posts_link('<span aria-hidden="true">&larr;</span> ' . __('Предидущие записи', 'fnote')); ?></div>
                 <div><?php previous_posts_link(__('Newer posts', 'fnote') . ' <span aria-hidden="true">&rarr;</span>'); ?></div>
             </div><!-- /.d-flex -->
         <?php
@@ -280,7 +280,7 @@ if (!function_exists('fnote_article_posted_on')) :
      */
     function fnote_article_posted_on()
     {
-        printf(__('<span class="sep">Posted on </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author-meta vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'fnote'),
+        printf(__('<span class="sep">Опубликовано </span><a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a><span class="by-author"> <span class="sep"> автор: </span> <span class="author-meta vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'fnote'),
             esc_url(get_the_permalink()),
             esc_attr(get_the_date() . ' - ' . get_the_time()),
             esc_attr(get_the_date('c')),

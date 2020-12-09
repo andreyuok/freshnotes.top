@@ -42,7 +42,7 @@
 
             <footer class="entry-meta">
                 <a href="<?php echo get_the_permalink(); ?>"
-                   class="btn btn-outline-secondary"><?php _e('more', 'fnote'); ?></a>
+                   class="btn btn-outline-secondary"><?php _e('Читать Далее...', 'fnote'); ?></a>
             </footer><!-- /.entry-meta -->
         </div><!-- /.card-body -->
     </div><!-- /.col -->
