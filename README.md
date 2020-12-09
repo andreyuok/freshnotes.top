@@ -1,2 +1,1 @@
-# freshnotes.top
-freshnotes website
+bootstrap wp theme
