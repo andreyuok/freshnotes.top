@@ -33,7 +33,7 @@ $search_enabled = get_theme_mod('search_enabled', '1'); // Get custom meta-value
                              alt="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"/>
                     <?php
                     else :
-                        echo esc_attr(get_bloginfo('name', 'display'));
+                        echo esc_attr(get_bloginfo('name', 'display'))?>. <?php echo get_bloginfo ( 'description' );
                     endif;
                     ?>
                 </a>
